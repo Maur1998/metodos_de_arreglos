@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+.container{
+    margin: 1rem;
+    max-width: 50vw;
+    max-height: 100vh;
+}
+
+header h1{
+    border-bottom: 2px solid gray;
+    margin-bottom: 1rem;
+}
+
+.todo-form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.todo-form input{
+    background-color: white;
+    height: 4vh;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+}
+
+.todo-form button{
+    background-color: green;
+    color: white;
+    border: none;
+    height: 4vh;
+    width: 100%;
+    border-radius: 3px;
+    margin-left: 1rem;
+    
+}
+
+.todo-form button:hover{
+    cursor: pointer;
+    background-color: rgb(2, 104, 2);
+}
+
+.card-footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.card-footer .footer1{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-footer .footer2{
+    display: flex;
+    font-weight: bold;
+    justify-content: space-evenly;
+}
+
+.lista-tareas {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.lista-tareas ul{
+    font-weight: lighter;
+    list-style: none;
+}
+
+
+.delete {
+    border: none;
+}
+
+.delete:hover{
+    cursor: pointer;
+}
+
+.delete i{
+    color: red;
+}
+
+.lista-id {
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-id ul{
+    font-weight: lighter;
+    list-style: none;
+}
